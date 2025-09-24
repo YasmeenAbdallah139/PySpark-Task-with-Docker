@@ -48,10 +48,6 @@ Open it in your browser or directly in **VS Code**:
   ```
   http://localhost:8888/?token
   ```
-- You can get the token from logs:
-  ```bash
-  docker logs jupyter
-  ```
 
 ---
 
@@ -67,7 +63,7 @@ docker compose -f depi.yaml down
 - `NullData.csv` → sample sales data with missing values.  
 - `russia.txt` → text file used for word count and text processing.  
 
-These files should be placed inside the `/data/` directory (mapped to the Jupyter container).  
+They are in *data files* directory here. 
 
 ---
 
