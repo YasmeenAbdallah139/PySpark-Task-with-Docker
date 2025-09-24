@@ -46,7 +46,7 @@ Open it in your browser or directly in **VS Code**:
 
 - In VS Code, open the **Command Palette** → `Python: Specify Jupyter Server for Connections` → paste:  
   ```
-  http://localhost:8888/?token=...
+  http://localhost:8888/?token
   ```
 - You can get the token from logs:
   ```bash
